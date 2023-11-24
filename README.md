@@ -1,3 +1,5 @@
+ข้อ1-2 อยู่ตรงนี้ 
+
 1).give a complete description of AirPurifier class
 - สี
 - ระบบไล่ยุง
@@ -7,26 +9,39 @@ instance variables
 - String color;
 - 
 instance methods
+
 void turnOnATmos(){ Atmospower = true;}
+
 void turnOffATmos(){Atmospower = false;}
+
 void turnOnION(){ IONpower = true;}
+
 void turnOffION(){ IONpower= false;}
+
 void turnOnAirFresh() { Airpower = true;}
+
 void turnOffAirFresh() { Airpower= false;}
+
 void Showstatus(){
+
 if(Atmospower == true){
 System.out.println("----Anti mosquito working---- ");
-}else{
+}
+else{
 System.out.println("----Anti mosquito stopping---- ");
 }
+
 if(IONpower == true){
 System.out.println("----Anti ION working---- ");
-}else{
+}
+else{
 System.out.println("----Anti ION stopping---- ");
 }
+
 if(Airpower == true){
 System.out.println("----Anti Air freshener working---- ");
-}else{
+}
+else{
 System.out.println("----Anti Air freshener stopping---- ");
 }
 
